@@ -4,7 +4,7 @@ import App from './App';
 import Expenses from './routes/expenses';
 import Invoices from './routes/invoices';
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById('app');
 render(
   <BrowserRouter>
     <Routes>
